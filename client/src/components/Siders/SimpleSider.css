@@ -1,0 +1,11 @@
+#simpleSider {
+  background-image: url(https://images.pexels.com/photos/4705932/pexels-photo-4705932.jpeg?auto=compress&cs=tinysrgb&w=1600);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 150px;
+  margin-bottom: 2%;
+  text-align: center;
+  padding-top: 30px;
+  font-family: serif;
+}

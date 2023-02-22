@@ -1,0 +1,38 @@
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: auto;
+  width: 50%;
+}
+#btnContact {
+  padding: 6px;
+  margin-bottom: 45px;
+}
+
+#btnContact svg {
+  font-size: 17pt;
+  margin-right: 5px;
+  margin-bottom: 3px;
+}
+
+#product-price-heading {
+  display: inline;
+  font-family: serif;
+}
+
+.product-details-seller {
+  text-align: center;
+}
+#archive-icon {
+  cursor: pointer;
+}
+#guest-msg {
+  font-weight: bold;
+  font-family: serif;
+  font-size: 14pt;
+}
+
+#guest-msg a {
+  text-decoration: underline;
+}

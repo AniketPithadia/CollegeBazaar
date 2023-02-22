@@ -1,0 +1,21 @@
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card {
+  margin-bottom: 15%;
+}
+
+.card-text {
+  text-align: left;
+  font-weight: bold;
+}
+
+.card-footer {
+}
+
+#heartIcon {
+  font-size: 16pt;
+  margin-left: 5%;
+}
