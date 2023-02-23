@@ -12,7 +12,8 @@ async function registerUser(userData) {
     errors.push(
       "Name should be at least 3 characters long and max 50 characters long; "
     );
-  // if (/(\+)?(359|0)8[789]\d{1}(|-| )\d{3}(|-| )\d{3}/.test(phoneNumber) == false) errors.push('Phone number should be a valid BG number; ' );
+  if (/^[6-9]\d{9}$/gi.test(phoneNumber) == false)
+    errors.push("Phone number should be a valid Indian number; ");
   if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email) == false)
     errors.push("Please fill a valid email address; ");
   if (password !== repeatPassword) errors.push("Passwords should match; ");

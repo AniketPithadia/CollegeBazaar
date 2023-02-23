@@ -1,6 +1,4 @@
 import "./Footer.css";
-import { AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
-import { FaFacebook } from "react-icons/fa";
 
 function Footer() {
   return (
@@ -9,9 +7,9 @@ function Footer() {
         <div className="moto">
           <h1>"One Stop Shop for all things Student Life"</h1>
         </div>
-        All Rights Reserved &copy; 2021 &#8226;
+        All Rights Reserved &copy; 2023 &#8226;&nbsp;
         <a
-          href="https://github.com/Angel-Sky/ReactJS-Project"
+          href="https://github.com/AniketPithadia"
           target="_blank"
           rel="noreferrer"
         >

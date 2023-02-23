@@ -1,9 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Niconne&family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,600;1,700&display=swap");
 footer {
   padding: 1rem;
   background-color: rgb(247, 247, 247);
   text-align: center;
   color: gray;
-  margin-top: 3%;
+}
+.moto h1 {
+  font-family: "Niconne", cursive !important;
+  font-size: 2rem;
+  margin: 1rem;
 }
 
 footer a {
@@ -12,33 +17,4 @@ footer a {
 
 footer a:hover {
   text-decoration: underline;
-}
-
-.connections {
-  padding: 20px;
-}
-
-.connections svg {
-  /* font-size: 30pt; */
-  margin: 7px;
-}
-
-.connections a {
-  color: #727272;
-}
-
-.connections a:hover {
-  color: #424242;
-}
-
-#instaIcon {
-  font-size: 35pt;
-}
-
-#fbIcon {
-  font-size: 30pt;
-}
-
-#linkedIcon {
-  font-size: 34pt;
 }

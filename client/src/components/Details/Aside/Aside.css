@@ -28,11 +28,10 @@
   cursor: pointer;
 }
 #guest-msg {
-  font-weight: bold;
-  font-family: serif;
-  font-size: 14pt;
+  font-size: 1.1rem;
 }
 
 #guest-msg a {
   text-decoration: underline;
+  font-weight: bold;
 }
